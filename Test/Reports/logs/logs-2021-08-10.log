@@ -1,0 +1,7 @@
+23:41:14.289 [main] INFO  utilites.BaseClass - AltoroMutualImageTest is Passed
+23:41:20.084 [main] INFO  utilites.BaseClass - Login is Passed
+23:41:21.084 [main] INFO  utilites.BaseClass - clickGoAccTest is Passed
+23:41:21.121 [main] INFO  utilites.BaseClass - checkAccNumber is Passed
+23:41:21.174 [main] INFO  utilites.BaseClass - checkDate is Passed
+23:41:23.668 [main] INFO  utilites.BaseClass - AltoroMutualImageTest is Passed
+23:41:24.058 [main] ERROR utilites.BaseClass - zfailed is Failed

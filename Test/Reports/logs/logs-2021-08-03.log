@@ -1,0 +1,7 @@
+11:28:57.574 [main] INFO  utilites.BaseClass - checkAccountTabOptions is Passed
+11:29:45.333 [main] INFO  utilites.BaseClass - openMainPage is Passed
+11:29:46.005 [main] INFO  utilites.BaseClass - searchSomething is Passed
+23:00:07.287 [main] INFO  utilites.BaseClass - openMainPage is Passed
+23:00:08.729 [main] INFO  utilites.BaseClass - searchSomething is Passed
+23:00:26.349 [main] INFO  utilites.BaseClass - test_1 is Passed
+23:00:26.955 [main] INFO  utilites.BaseClass - test_2 is Passed
