@@ -189,8 +189,4 @@ public class MainLoginTest extends BaseClass {
 	
 	
 	
-	/*
-	 * @AfterTest public void closeBrowser() { row++; driver.quit(); }
-	 */
-
 }
