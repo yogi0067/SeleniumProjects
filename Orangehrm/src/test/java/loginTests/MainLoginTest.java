@@ -160,7 +160,6 @@ public class MainLoginTest extends BaseClass {
 				data[i - 1][j] = cell.getStringCellValue();
 			}
 		}
-
 		return data;
 
 	}
