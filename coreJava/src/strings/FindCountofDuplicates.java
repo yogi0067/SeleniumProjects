@@ -25,7 +25,7 @@ public class FindCountofDuplicates {
 		char[] chr = str.toCharArray();
 
 		HashSet<Character> chars = new HashSet<Character>();
-
+		
 		for (int i = 0; i < chr.length; i++) {
 			chars.add(chr[i]);
 		}

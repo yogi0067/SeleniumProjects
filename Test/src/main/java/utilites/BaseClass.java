@@ -5,7 +5,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.sql.Driver;
 import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
@@ -15,13 +14,11 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.reporter.ExtentReporter;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -35,6 +32,12 @@ public class BaseClass {
 	public  WebDriver initilizeDriver() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
+		return driver;	
+	}
+	public  WebDriver initilizeDriver(ChromeOptions options) {
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver(options);
+		driver.manage().window().maximize();
 		return driver;	
 	}
 	public  WebDriver initilizeDriver(DesiredCapabilities dc) throws MalformedURLException {
@@ -71,6 +74,13 @@ public class BaseClass {
 		
 		
 	}
-	
+	public void uploadFile(String filepath) throws IOException
+	{
+		
+		Runtime.getRuntime().exec(System.getProperty("user.dir") + "\\resources\\autoituloadfromcmd.exe"+" "+ filepath);
+		//C:\Users\think\eclipse-workspace\Test\resources\autoituloadfromcmd.exe
+		
+		
+	}
 
 }

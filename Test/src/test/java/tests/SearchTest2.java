@@ -15,7 +15,7 @@ public class SearchTest2 extends BaseClass {
 	PageObjectsPratice po = new PageObjectsPratice(driver);
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 
-	@Test
+	@Test()
 	public void a() throws IOException {
 		driver.manage().window().maximize();
 		driver.get(getPropertyValue("autoPracticeUrl"));

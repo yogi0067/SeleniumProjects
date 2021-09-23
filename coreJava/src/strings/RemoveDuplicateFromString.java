@@ -16,7 +16,9 @@ public class RemoveDuplicateFromString {
 			chars.add(chr[i]);
 		}
 		
+		chars.stream().forEach(s->System.out.println(s));
 		Iterator test=chars.iterator();
+		
 		String str1="";
 		while(test.hasNext())
 		{
