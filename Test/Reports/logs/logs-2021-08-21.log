@@ -1,0 +1,7 @@
+23:41:25.040 [main] INFO  utilites.BaseClass - Login is Passed
+23:41:25.563 [main] INFO  utilites.BaseClass - checkNavigatetoTransferFundPage is Passed
+23:41:26.519 [main] INFO  utilites.BaseClass - transferAmountTest is Passed
+23:41:28.939 [main] INFO  utilites.BaseClass - clickGoAccTest is Passed
+23:41:29.021 [main] INFO  utilites.BaseClass - fromAccountAmountWithdrawalTest is Passed
+23:41:30.833 [main] INFO  utilites.BaseClass - fromAccountAmountDepositTest is Passed
+22:40:04.372 [main] INFO  utilites.BaseClass - openMainPage is Passed

@@ -1,0 +1,5 @@
+00:22:28.603 [main] INFO  utilites.BaseClass - LoginTest
+00:22:28.616 [main] INFO  utilites.BaseClass - LoginTest
+00:22:35.505 [main] INFO  utilites.BaseClass - LoginTest
+00:22:35.518 [main] INFO  utilites.BaseClass - checkImage
+00:22:43.515 [main] ERROR utilites.BaseClass - checkImage is Failed
